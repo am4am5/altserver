@@ -1,0 +1,15 @@
+# Edit journald.conf
+
+nano /etc/systemd/journald.conf
+
+Original Config
+[Journal]
+#Storage=auto
+...
+New Config
+[Journal]
+Storage=persistent
+...
+#After a restart of journalctl, all users could view their respective logs:
+
+systemctl restart systemd-journald
