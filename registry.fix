@@ -1,0 +1,4 @@
+nano /etc/containers/registries.conf
+
+[registries.insecure]
+registries = ['registry2.edo.iba','registry.gtb.local']
