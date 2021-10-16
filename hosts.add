@@ -1,0 +1,3 @@
+echo "192.168.249.20 gitlab.gtb.local registry.gtb.local minio.gtb.local beltg-28-kubm01" >> /etc/hosts
+
+sed -i 's/registry.gtb.local beltg-28-kubm01/gitlab.gtb.local registry.gtb.local minio.gtb.local beltg-28-kubm01/' /etc/hosts
