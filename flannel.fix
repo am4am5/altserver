@@ -1,0 +1,7 @@
+cat<<'EOF'>/etc/systemd/network/10-flannel.link
+[Match]
+OriginalName=flannel*
+
+[Link]
+MACAddressPolicy=none
+EOF
