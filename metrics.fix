@@ -1,0 +1,6 @@
+      containers:
+      - args:
+        - --cert-dir=/tmp
+        - --secure-port=8448
+        - --kubelet-preferred-address-types=InternalIP,ExternalIP
+        - --kubelet-insecure-tls
